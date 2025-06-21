@@ -1,0 +1,17 @@
+#services{
+    text-align: center;
+    padding: 20px;
+}
+
+#services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: #333;
+}
+
+#services p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}

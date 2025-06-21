@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gourmet</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class=" great-vibes-regular">
+            <i class="fas fa-utensils"></i>
+            <h2>Le gourmet</h2>
+
+        </div>
+        <div class="nav-links">
+            <a href="#home">
+                <i class="fas fa-home"></i>
+                Accueil</a>
+            <a href="#services">
+                <i class="fas fa-concierge-bell"></i>
+
+                Services</a>
+            <a href="#menu">
+                <i class="fas fa-utensils"></i>
+                Menu
+            </a>
+            <a href="#reservation">
+                <i class="fas fa-calendar-check"></i>
+                Réservation</a>
+            <a href="#testimonials">
+                <i class="fas fa-comments"></i>Avis</a>
+            <!-- <a href="#about">À Propos</a> -->
+            <!-- <a href="#contact">Contact</a> -->
+            <a href="">
+                <i class="fas fa-shopping-cart"></i> Panier
+            </a>
+            <a href="" onclick="openNav()" class="open-btn">
+                <i class="fas fa-bars"></i>
+
+            </a>
+        </div>
+        <div class="nav-links" id="mobile-nav">
+            <a href="" class="close-btn" onclick="closeNav()">
+                <i class="fas fa-close"></i>
+            </a>
+            <a href="#home">
+                <i class="fas fa-home"></i>
+                Accueil</a>
+            <a href="#services">
+                <i class="fas fa-concierge-bell"></i>
+
+                Services</a>
+            <a href="#menu">
+                <i class="fas fa-utensils"></i>
+                Menu
+            </a>
+            <a href="#reservation">
+                <i class="fas fa-calendar-check"></i>
+                Réservation</a>
+            <a href="#testimonials">
+                <i class="fas fa-comments"></i>Avis</a>
+            <!-- <a href="#about">À Propos</a> -->
+            <!-- <a href="#contact">Contact</a> -->
+            <a href="">
+                <i class="fas fa-shopping-cart"></i> Panier
+            </a>
+
+        </div>
+    </nav>
+    <!-- accuiel -->
+    <section class="hero" id="home">
+        <img src="logo-le-gourmet.png" alt="Le Gourmet" class="logo">
+        <h1>Le Gourmet</h1>
+        <p>L'excellence gastronomique à votre service</p>
+        <a href="#reservation" class="btn">Réserver une Table</a>
+
+    </section>
+    <!-- a propos -->
+    <section class="about" id="about">
+        <h2 class="section-title">À Propos de Nous</h2>
+        <p>Le Gourmet est un restaurant étoilé Michelin, reconnu pour sa cuisine raffinée et son service impeccable.
+            Notre chef, avec plus de 20 ans d'expérience, crée des plats qui allient tradition et innovation.</p>
+        <video src="le-gourmet-dining-experience.mp4" controls></video>
+        <p>Nous nous engageons à offrir une expérience culinaire inoubliable, que ce soit pour un dîner romantique, un
+            repas d'affaires ou une célébration spéciale. Notre équipe est dédiée à vous fournir un service de qualité
+            supérieure dans un cadre élégant et chaleureux.</p>
+        <p>Venez découvrir notre menu saisonnier, élaboré avec des ingrédients frais et locaux, et laissez-vous séduire
+            par l'art de la gastronomie française.</p>
+        <!-- <div class="about-img">
+            <img src="asset/équipe.jpg" alt="Notre équipe">
+        </div> -->
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <h2 class="section-title">Nos Services Exclusifs</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="asset/logo-noir (3).jpg" alt="Livraison Gastronomique">
+                    </div>
+                    <div class="service-content">
+                        <h3>Livraison Premium</h3>
+                        <p>Nos plats étoilés livrés chez vous dans des conditionnements haut de gamme.</p>
+                        <div class="service-price">À partir de 15€
+                            <a href="">Voir</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="asset/équipe.jpg" alt="Chef à domicile">
+                    </div>
+                    <div class="service-content">
+                        <h3>Chef Privé</h3>
+                        <p>Un chef étoilé prépare un menu personnalisé dans votre cuisine.</p>
+                        <div class="service-price">À partir de 200€
+                            <a href="">Voir</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="asset/openart-image_FSjMtg-8_1750433836111_raw.jpg" alt="Serveurs professionnels">
+                    </div>
+                    <div class="service-content">
+                        <h3>Service sur Mesure</h3>
+                        <p>Serveurs professionnels pour vos événements privés.</p>
+                        <div class="service-price">À partir de 50€/pers.
+                            <a href="">Voir</a>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="asset/wedding-1846114_1280.jpg" alt="Serveurs professionnels">
+                    </div>
+                    <div class="service-content">
+                        <h3>Organisation des moments magiques</h3>
+                        <p>Une décoration à vous couper le souffle</p>
+                        <div class="service-price">À partir de 50€/pers.
+                            <a href="oranisation.html">Voir</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!--Nos produits -->
+        <section class="produits" id="menu">
+            <h2 class="section-title">Nos sélections</h2>
+            <div class="subtitle-produits">
+                <img src="PLAT/openart-image_-apyD0_l_1750433362287_raw.jpg" alt="" width="180" height="180">
+                <h3>Découvrez notre sélection de plats raffinés</h3>
+                <p>Chaque plat est préparé avec soin par nos chefs étoilés, utilisant des ingrédients frais et de
+                    saison.</p>
+            </div>
+            <div class="produits-grid">
+                <div class="produit-card">
+                    <img src="PLAT/openart-image_soHpZNGm_1750434003324_raw.jpg" alt="Produit 1">
+                    <h3>Produit 1</h3>
+                    <p>Description du produit 1.</p>
+                    <span class="prix">10€</span>
+                </div>
+                <div class="produit-card">
+                    <img src="PLAT/plat (2).jpeg" alt="Produit 2">
+                    <h3>Produit 2</h3>
+                    <p>Description du produit 2.</p>
+                    <span class="prix">15€</span>
+                </div>
+                <div class="produit-card">
+                    <img src="PLAT/openart-image_ut20G1vV_1750433362178_raw.jpg" alt="Produit 3">
+                    <h3>Steak grillé</h3>
+                    <p>Description du produit 3.</p>
+                    <span class="prix">20€</span>
+                </div>
+            </div>
+            <marquee behavior="smooth" direction="left">
+                <div class="marquee-element">
+                    <div class="produit-card">
+                        <img src="PLAT/openart-image_ut20G1vV_1750433362178_raw.jpg" alt="Produit 3">
+                        <h3>Steak grillé</h3>
+                        <p>Description du produit 3.</p>
+                        <span class="prix">20€</span>
+                    </div>
+                    <div class="produit-card">
+                        <img src="PLAT/openart-image_ut20G1vV_1750433362178_raw.jpg" alt="Produit 3">
+                        <h3>Steak grillé</h3>
+                        <p>Description du produit 3.</p>
+                        <span class="prix">20€</span>
+                    </div>
+                    <div class="produit-card">
+                        <img src="PLAT/openart-image_ut20G1vV_1750433362178_raw.jpg" alt="Produit 3">
+                        <h3>Steak grillé</h3>
+                        <p>Description du produit 3.</p>
+                        <span class="prix">20€</span>
+                    </div>
+                </div>
+            </marquee>
+        </section>
+        <!-- temoignages -->
+        <section class="testimonials" id="testimonials">
+            <h2 class="section-title">Ils parle de nous</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <img src="asset/IMG-20220809-WA0013_2.jpg" alt="Client 1">
+                    <p>"Une expérience culinaire inoubliable !"</p>
+                    <span>- Client 1</span>
+                </div>
+                <div class="testimonial-card">
+                    <img src="asset/logo.png" alt="Client 2">
+                    <p>"Le meilleur restaurant de la ville !"</p>
+                    <i class="fas fa-star"></i>
+                    <span>- Client 2</span>
+                </div>
+                <div class="testimonial-card">
+                    <img src="asset/logo-noir (4).jpg" alt="Client 3">
+                    <p>"Des plats exquis et un service impeccable."</p>
+                    <span>- Client 3</span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="testimonial-card">
+                    <img src="asset/photo-1676552055618-22ec8cde399a.jpg" alt="Client 4">
+                    <p>"Une soirée parfaite, merci Le Gourmet !"</p>
+                    <span>- Client 4</span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+
+                </div>
+        </section>
+        <div class="more">
+            <a href="" class="btn">voir plus</a>
+        </div>
+        <section class="reservation" id="reservation">
+            <h2 class="section-title">Réserver une Table</h2>
+            <form class="reservation-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Heure</label>
+                        <input type="time" id="time" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="guests">Nombre de personnes</label>
+                        <select id="guests" required>
+                            <option value="1">1 personne</option>
+                            <option value="2" selected>2 personnes</option>
+                            <option value="3">3 personnes</option>
+                            <option value="4">4 personnes</option>
+                            <option value="5">5 personnes</option>
+                            <option value="6">6+ personnes</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="requests">Demandes spéciales</label>
+                    <textarea id="requests"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Confirmer la réservation</button>
+            </form>
+        </section>
+        <button class="scroll-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Le Gourmet</h3>
+                    <p>123 Avenue Gastronomique</p>
+                    <p>75001 Brazzaville, Congo</p>
+                    <p>+242 067627016</p>
+                    <a href="mailto:orssimpiere5.com">contact@legourmet.com</a>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Horaires</h3>
+                    <p>Lundi - Vendredi: 12h - 14h30 / 19h - 22h30</p>
+                    <p>Samedi: 19h - 23h</p>
+                    <p>Dimanche: Fermé</p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Réseaux Sociaux</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2023 Le Gourmet. Tous droits réservés.</p>
+            </div>
+        </footer>
+
+</body>
+<script src="main.js"></script>
+
+</html>
