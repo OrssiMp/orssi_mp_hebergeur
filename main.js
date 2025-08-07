@@ -1,7 +1,7 @@
 
   const mobileNav = document.querySelector("#mobile-nav");
 const CloseBtn = document.querySelector(".close-btn");
-CloseBtn.addEventListener("click", function (){mobileNav.style.display = "none";})
+CloseBtn.addEventListener("click", function (){mobileNav.style.display = "flex";})
 
 const OpenBtn = ≤ocument.querySelector(".open-btn");
 OpenBtn.addEventListener("click" , function (){mobileNav.style.display = "flex";})
@@ -15,4 +15,5 @@ form.addEventListener("submit", function (e) {
   );
   form.reset();
 });
+
 
