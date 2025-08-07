@@ -1,10 +1,10 @@
 
   const mobileNav = document.querySelector("#mobile-nav");
 const CloseBtn = document.querySelector(".close-btn");
-CloseBtn.addEventListener("click", () => {mobileNav.style.display = "none";})
+CloseBtn.addEventListener("click", function (){mobileNav.style.display = "none";})
 
 const OpenBtn = ≤ocument.querySelector(".open-btn");
-OpenBtn.addEventListener("click" , () =>{mobileNav.style.display = "flex";})
+OpenBtn.addEventListener("click" , function (){mobileNav.style.display = "flex";})
 
 // Form Submission
 const form = document.querySelector(".reservation-form");
